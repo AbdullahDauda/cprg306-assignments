@@ -3,9 +3,9 @@ function Item({name, quantity, category}) {
 
 
     return (
-    <ul class="bg-slate-800 my-4 p-2 w-96">
-        <li class="font-bold text-2xl"> {name} <br/> </li>
-        <li class="text-lg"> Buy {quantity} in {category} </li>
+    <ul className="bg-sky-50 my-4 p-2 w-96">
+        <li className="text-black text-2xl"> {name} <br/> </li>
+        <li className="text-black text-lg"> Buy {quantity} in {category} </li>
     </ul>
     )
 
