@@ -30,7 +30,7 @@ export default function Page() {
         if (user) {
             loadItems();
         }
-    }, [user]);
+    }, [loadItems, user]);
     
     
     if (!user) {
